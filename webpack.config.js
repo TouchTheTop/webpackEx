@@ -1,5 +1,5 @@
 module.exports = {
-	devtool: 'eval-source-map',//生成Source Maps,这里选择eval-source-map
+	devtool: 'source-map',//生成Source Maps,这里选择eval-source-map
   entry:  "./app/main.js",//已多次提及的唯一入口文件
   output: {
     path: "./public/",//打包后的文件存放的地方
